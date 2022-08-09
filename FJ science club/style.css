@@ -1,0 +1,291 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+
+/* ナビゲーションの箱 */
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-color:rgb(0,119,198);
+  padding-top: 10px;
+  padding-bottom: 50px;
+  
+}
+
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color: rgb(203, 232, 233);
+}
+
+.title{font-family: serif;
+  font-size:100px; 
+}
+
+/* h1見出し */
+h1 {
+  color: #ffffee;/* フォントの色 */
+  font-size: 120px;/* フォントの大きさ */
+  font-family:Comic Sans MS ;/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  height: 140px;/* 高さ */
+  padding-top: 40px;/* 上がわの余白 */
+  background-position: top center;/* 背景の位置 */
+}
+
+h2{
+  margin: 0 auto;
+  color: #ffffff;
+  border-color: #ffffff;
+
+}
+
+/* h3見出し */
+h3 {
+  font-size: 30px; 
+  margin-top: 0px;
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/kumo1.jpg);/* 背景画像 */
+  height: 500px;/* 高さ */
+  padding-top: 150px;/* 上がわの余白 */
+}
+
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+
+.scienceclub{
+  background-color:rgb(75, 175, 198);/* 背景の色 */
+  color: #ffffff;
+  padding: 30px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+/* h2見出し */
+.title {
+  font-size: 35px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 0px auto;
+  color:#ffffff;
+}
+
+.scienceclub-link{
+  position: relative;
+  
+  margin-left: 80%;
+}
+
+
+.scienceclub-link a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.scienceclub-contents{
+  display:flex;
+  justify-content: light;
+ color: #ffffff;
+ font-size: 25px;
+}
+
+/* 段落 */
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+/* 画像 */
+.shop img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+
+/* ===== 科学部紹介 ===== */
+/* セクション */
+.study {
+ padding: 30px;
+  background-color:rgb(75, 175, 198) ;
+}
+
+/* h2見出し */
+.study h2 {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* h3見出し */
+.study h3 {
+  color: rgb(0,119,198);
+}
+
+/* 段落 */
+.study p {
+  color: #ffffff;
+  clear: left;/* 画像や箱の回り込みをやめる */
+}
+
+.brogu{
+ display: flex;
+ flex-direction:column;
+}
+
+/* 小さな箱 */
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(0,119, 179);
+  box-shadow: 10px 10px 20px #000000;
+}
+
+/* 箱 */
+.box {display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+/* ===== 課外活動===== */
+/* セクション */
+
+.active{
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+  
+  color:#ffffff;
+}
+.price {
+  font-family: 'Noto Serif JP', serif;
+  padding: 30px;
+  background-color: rgb(75, 175, 198);
+}
+
+
+
+.pi{
+  display: flex;
+  flex-direction:row;
+}
+/* h2見出し */
+.price h2 {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/*====賞=====*/
+.shou{
+  color: rgb(0,119,198);
+}
+
+.sho{display:flex;
+flex-wrap:wrap;
+}
+/*終わり*/
+
+.map{
+ display: flex;
+ flex-direction:row;
+}
+
+.end  {
+  background-color: rgb(15,125,181);
+  padding: 30px;
+}
+.information{
+  text-align:left;
+  color:#ffffff;
+}
+
+/* ===== 賞 ===== */
+/* セクション */
+.access {
+  padding: 30px;
+  background-color: rgb(75, 175, 198);
+  color: #663300;
+}
+
+
+
+/* リスト */
+.access ul {
+  list-style-type: none;/* リストのマーカー */
+  padding-left: 0px;
+}
+
+/* 箱 */
+.access div {
+  width: 500px;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color:rgb(75,175,198);
+  color: #ffffff;
+}
+h3{
+  margin: 0 auto;
+}
+
+
+
+.JFHP a{
+  font-size: 50px;
+  color: rgb(241, 158, 194);
+  font-family: 'Noto Serif JP', serif;
+}
+
+
+.JHri{
+  font-size:25px;
+  font-family:'Noto Serif JP', serif ;
+  color: rgb(234, 104, 54);
+}
